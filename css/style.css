@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+header {
+    height: 1080px;
+    box-sizing: border-box;
+    padding-left: 160px;
+    padding-top: 181px;
+}
+
+header > p:nth-of-type(1){
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 117px;
+    width: 1071px;
+    height: 270px;
+    margin-bottom: 22px;
+}
+
+header > p:nth-of-type(2){
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 15px;
+}
+
+header > p:nth-of-type(3){
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 186px;
+}
+
+header > a{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    width: 200px;
+    height: 50px;
+    color: #FFFFFF;
+    padding: 10px 65px 10px 65px;
+}
+
+main{
+    padding: 190px 160px 190px 160px;
+}
+
+.image-container{
+    width: 1600px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 50px 20px rgba(0, 0, 0, 0.25);
+}
+
+footer> p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 200px 0 201px 0;
+}
+
+footer> p > span{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+.image-item{
+    width: 50%;
+    height: 600px;
+    text-align: center;
+}
+
+.image-item >img{
+    height: 100%;
+}
